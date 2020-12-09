@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/chapter10_io" />
+      <file path="$PROJECT_DIR$/chapter11_socket" />
+      <file path="$PROJECT_DIR$/chapter8_exception" />
+      <file path="$PROJECT_DIR$/chapter9_memory" />
+      <file path="$PROJECT_DIR$/csapp" />
+      <file path="$PROJECT_DIR$/src" />
+    </sourceRoots>
+  </component>
+</project>
