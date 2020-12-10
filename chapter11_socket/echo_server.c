@@ -36,9 +36,9 @@ int main(int argc, char **argv) {
         client_len = sizeof(struct sockaddr_storage); 
         //阻塞接受客户端请求
         conn_fd = accept(listen_fd, (struct sockaddr *)&client_addr, &client_len); 
-                        MAX_LINE, client_port, MAX_LINE, 0); 
         //从链接获取 ClientName 和 Port 并打印
         getnameinfo((struct sockaddr *)&client_addr, client_len, client_hostname,
+                        MAX_LINE, client_port, MAX_LINE, 0);
         printf("Connect to (%s,%s)\n", client_hostname, client_port);
         echo(conn_fd); //执行服务器 echo 行为
         close(conn_fd); //关闭此到客户端的连接
